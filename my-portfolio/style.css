@@ -139,7 +139,7 @@
     top: 50%;
     left: 50%;
   }
-  /* Projects Section Styling */
+ /* Projects Section */
 #projects {
     padding: 60px 0;
   }
@@ -163,12 +163,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
   
-  /* Card Body Text */
-  .card-body p {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
   .card-body ul {
     padding-left: 20px;
   }
@@ -188,58 +182,19 @@
     background: #ffffff;
     color: #333333;
   }
-  /* Certifications Section */
-#certifications {
-    background: linear-gradient(135deg, #e3f2fd, #ffffff); /* Light gradient background */
-    padding: 60px 0;
-  }
-  
-  #certifications h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333333;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Certification Cards */
-  .card {
+  /* Click to Contact Button Styling */
+header .btn-primary {
+    background: linear-gradient(90deg, #42a5f5, #478ed1); /* Gradient background */
     border: none;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-title i {
-    font-size: 1.5rem;
-  }
-  
-  .card-body p {
+    padding: 10px 20px;
     font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  .btn-outline-primary, .btn-outline-success, .btn-outline-warning {
-    border: 2px solid;
+    border-radius: 50px;
     transition: all 0.3s ease;
   }
   
-  .btn-outline-primary:hover {
-    background: #007bff;
-    color: #ffffff;
-  }
-  
-  .btn-outline-success:hover {
-    background: #28a745;
-    color: #ffffff;
-  }
-  
-  .btn-outline-warning:hover {
-    background: #ffc107;
-    color: #ffffff;
+  header .btn-primary:hover {
+    background: linear-gradient(90deg, #478ed1, #42a5f5); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slight zoom effect */
   }
   
   /* Floating Animation */
